@@ -1,0 +1,113 @@
+img {
+width: 325px;
+height: 150px;
+}
+.contact-grid-wrapper {
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 100px;
+}
+.company-metadata-sidebar-wrapper > .logo {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.company-metadata-sidebar-wrapper > .company-details-wrapper {
+    font-family: 'Righteous', cursive;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: right;
+    font-size: 1.25em;
+    align-items: center;
+}
+ 
+/* form stayls */
+ 
+
+.form > .form-group{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.form input {
+    font-size: 1.5rem;
+    font-family: inherit;
+    color: inherit;
+    padding: 1.5rem 2rem;
+    border-radius: 2px;
+    border: none;
+    border-bottom: 3px solid #f5c62c;
+    width: 100%;
+    display: block;
+    transition: all 0.5s;
+}
+.form input:focus{
+    outline: none;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+    border-bottom: 3px solid #f5c62c;
+}
+.form textarea:focus{
+    outline: none;
+    box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.1);
+    border: 3px solid #f5c62c;
+}
+.form textarea {
+    margin-top:20px;
+    width: 100%;
+    height: 250px;
+    border-radius: 3px;
+    border: 3px solid #f5c62c;
+    font-family: inherit;
+    color: inherit;
+    padding: 1.5rem 2rem;
+    transform: all;
+}
+.form label{
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-left: 2rem;
+    margin-top: 0.7rem;
+    display: block;
+    transition: all 0.7s;
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+}
+.form input:focus + label, .form textarea:focus + label{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(1rem);
+}
+.form input::placeholder, .form textarea::placeholder{
+    color: #f5c62c;
+}
+.form input:focus::placeholder, .form textarea:focus::placeholder{
+    color: transparent;
+}
+.company-metadata-sidebar-wrapper> .company-details-wrapper i{
+    color: #f5c62c;
+}
+ 
+
+/* buttons */
+ 
+.btn {
+    background-color: #f5c62c;
+    color: black;
+    font-size: 1.25em;
+    padding: 10px 25px;
+    border: 1px solid #f5c62c;
+    border-radius: 2px;
+    outline: none;
+    transition: 0.7s;
+}
+.btn:active {
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
+}
+.center-btn-wrapper {
+    display: flex;
+    justify-content: center;
+}
+ 

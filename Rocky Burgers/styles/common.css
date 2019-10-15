@@ -1,0 +1,36 @@
+body {
+    margin: 1px;
+    font-family: 'Righteous', cursive;
+    font-family: 'Pacifico', cursive;
+}
+ 
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Oswald', sans-serif;
+}
+ 
+/* helper */
+.spacer60 {
+    height: 100px;
+    width: 100%;
+}
+.spacer20 {
+    height: 100px;
+    width: 100%;
+}
+ 
+/* anchors */
+.anchor {
+    text-decoration: none;
+}
+.anchor:focus {
+    outline: none;
+}
+/* .anchor h1::before{
+    content: ""
+} */
+/* .anchor h1::after{
+    font-family: "Font Awesome 5 Free";
+    content: " \f0c1";
+    font-weight: 900;
+} */
+ 

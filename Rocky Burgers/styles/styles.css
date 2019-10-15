@@ -1,0 +1,10 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-content: 
+}
+.lol{
+    display: flex;
+    text-align: left;
+    width: 50px;
+}

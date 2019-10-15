@@ -1,0 +1,74 @@
+
+.hero-section {
+    background-image: url(/Users/gabrielcalonge/Progects/ABurger/img/burger-hero.jpg);
+    padding: 100px;
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ 
+.hero-section > .top-heading {
+    padding: 1px 20px;
+    background-color:#f5c62c;
+    color: black;
+    border-radius: 10px;
+    width: 340px;
+}
+ 
+.hero-section > .bottom-heading {
+    background-color: #f5c62c;
+    color: black;
+    padding: 1px 20px;
+    margin-top: 15px;
+    width: 135px;
+    border-radius: 10px;
+}
+ 
+                        /* feat-sec */
+.feat-sec {
+    height: 450px;
+    background-image:  url(/Users/gabrielcalonge/Progects/ABurger/img/CR-Health-InlineHero-When-Did-Romaine-Take-Over-04-18.jpeg);
+    background-color: blueviolet;
+    border-top: 10px solid wheat;
+    color: ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:  'Righteous', cursive;
+    box-shadow: inset 8px -35px 85px -15px rgba(0,0,0,0.58)
+}
+.feat-sec > .columns-rapper {
+     width: 1000px;
+     display: flex;
+     justify-content: space-between;
+}
+.feat-sec > .columns-rapper > .column {
+    background-color: #f5c62c;
+     padding: 20px;
+     margin: 42px;
+     text-align: center;
+     border-bottom: 5px solid transparent;
+     border-radius: 10px;
+     transition: 1s;
+}
+.feat-sec > .columns-rapper > .column:hover{
+    border-bottom: 5px solid darkred;
+}
+.feat-sec > .columns-rapper > .column :nth-child(1){
+    font-size: 3em;
+}
+.feat-sec > .columns-rapper > .column :nth-child(2){
+    font-size: 1.5em;
+    font-weight: 900;
+    height: 50px;
+    transition: 0.7s;
+}
+.feat-sec > .columns-rapper > .column :nth-child(2):hover{
+letter-spacing: 1px;
+}
+.feat-sec > .columns-rapper > .column :nth-child(3){
+letter-spacing: 2px;
+}
+ 
